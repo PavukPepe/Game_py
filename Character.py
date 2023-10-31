@@ -64,6 +64,8 @@ class Character():
     def Setter(self, cl):
         if cl == "h":
             self.Hilling()
+        elif cl == "c":
+            self.Change()
         elif cl == "i":
             self.Inventar()
         elif cl == "s":
